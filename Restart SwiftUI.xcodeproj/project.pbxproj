@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43EDEAD28B8678B00D90DEE /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43EDEAC28B8678B00D90DEE /* AudioPlayer.swift */; };
 		A4BC104F28B29DFB00927FFF /* Restart_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BC104E28B29DFB00927FFF /* Restart_SwiftUIApp.swift */; };
 		A4BC105128B29DFB00927FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BC105028B29DFB00927FFF /* ContentView.swift */; };
 		A4BC105328B29DFE00927FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BC105228B29DFE00927FFF /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A43EDEAC28B8678B00D90DEE /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		A4BC104B28B29DFB00927FFF /* Restart SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restart SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BC104E28B29DFB00927FFF /* Restart_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restart_SwiftUIApp.swift; sourceTree = "<group>"; };
 		A4BC105028B29DFB00927FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,13 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				A4BC106528B2A1D400927FFF /* Restart-SwiftUI-Info.plist */,
-				A4BC106428B2A09900927FFF /* Utilities */,
-				A4BC106328B2A07D00927FFF /* Views */,
-				A4BC106028B29EC900927FFF /* Sounds */,
 				A4BC104E28B29DFB00927FFF /* Restart_SwiftUIApp.swift */,
-				A4BC106128B2A01D00927FFF /* Screens */,
 				A4BC105228B29DFE00927FFF /* Assets.xcassets */,
 				A4BC105428B29DFE00927FFF /* Preview Content */,
+				A4BC106128B2A01D00927FFF /* Screens */,
+				A4BC106328B2A07D00927FFF /* Views */,
+				A4BC106028B29EC900927FFF /* Sounds */,
+				A4BC106428B2A09900927FFF /* Utilities */,
 			);
 			path = "Restart SwiftUI";
 			sourceTree = "<group>";
@@ -112,6 +114,7 @@
 		A4BC106428B2A09900927FFF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A43EDEAC28B8678B00D90DEE /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				A4BC106928B2A24300927FFF /* HomeView.swift in Sources */,
 				A4BC105128B29DFB00927FFF /* ContentView.swift in Sources */,
 				A4BC104F28B29DFB00927FFF /* Restart_SwiftUIApp.swift in Sources */,
+				A43EDEAD28B8678B00D90DEE /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
